@@ -19,4 +19,8 @@ return {
     gray7 = "#aaaaaa",
     gray8 = "#cccccc",
     gray9 = "#DDDDDD",
+
+    custom_green = "#92B868",
+    custom_yellow = "#ECDD5E",
+    custom_bronze = "#BD985F",
 }

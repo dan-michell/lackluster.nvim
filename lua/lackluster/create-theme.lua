@@ -37,7 +37,7 @@ return function(color, color_special)
         bg_tab_active = color.gray8,
 
         fg_line_num = color.gray4,
-        fg_line_num_cur = color.gray7,
+        fg_line_num_cur = color.custom_yellow,
 
         fg_border = color.gray4,
         bg_colorcolumn = color.gray1,
@@ -78,13 +78,13 @@ return function(color, color_special)
         type_def = color.gray8,
         type_primitive = color.gray7,
         builtin = color.gray5,
-        keyword = color_special.keyword,
-        keyword_return = color_special.exception,
-        keyword_exception = color_special.exception,
-        string = color.lack,
+        keyword = color.custom_yellow,
+        keyword_return = color.custom_yellow,
+        keyword_exception = color.custom_yellow,
+        string = color.custom_green,
         string_escape = color.green,
         punctuation = color.gray6,
-        comment = color_special.comment,
+        comment = color.custom_bronze,
     }
 
     ---@type LacklusterThemeSyntax
@@ -152,7 +152,7 @@ return function(color, color_special)
     result.diagnostic = {
         -- NOTE: "text" is used for hover/virtual text and the colors are used as signs
         -- this reduces visual noise (except for error text which should always be red)
-        text = color.gray4,
+        text = color.gray7, -- edit
         ok = color.green,
         hint = color.gray6,
         error = color.red,
