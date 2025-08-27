@@ -36,7 +36,7 @@ return function(color, color_special)
         fg_tab_active = color.gray1,
         bg_tab_active = color.gray8,
 
-        fg_line_num = color.gray4,
+        fg_line_num = color.custom_yellow,
         fg_line_num_cur = color.custom_yellow,
 
         fg_border = color.gray4,
