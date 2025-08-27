@@ -37,11 +37,11 @@ return function(color, color_special)
         bg_tab_active = color.gray8,
 
         fg_line_num = color.gray4,
-        fg_line_num_cur = color.custom_yellow,
+        fg_line_num_cur = color.custom_yellow, -- edit
 
         fg_border = color.gray4,
         bg_colorcolumn = color.gray1,
-        bg_cursorline = color.gray2,
+        bg_cursorline = "none", -- edit
 
         bg_visual = color.gray8,
         fg_visual = color.black,
@@ -78,13 +78,13 @@ return function(color, color_special)
         type_def = color.gray8,
         type_primitive = color.gray7,
         builtin = color.gray5,
-        keyword = color.custom_yellow,
-        keyword_return = color.custom_yellow,
-        keyword_exception = color.custom_yellow,
-        string = color.custom_green,
+        keyword = color.custom_yellow, -- edit
+        keyword_return = color.custom_yellow, -- edit
+        keyword_exception = color.custom_yellow, -- edit
+        string = color.custom_green, -- edit
         string_escape = color.green,
         punctuation = color.gray6,
-        comment = color.custom_bronze,
+        comment = color.custom_bronze, -- edit
     }
 
     ---@type LacklusterThemeSyntax
