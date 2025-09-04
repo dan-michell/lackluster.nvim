@@ -74,9 +74,9 @@ return function(color, color_special)
         func_call = color.gray6,
         func_param = color_special.param,
         special = color.lack,
-        type = color.gray7,
+        type = color.gray8, -- edit
         type_def = color.gray8,
-        type_primitive = color.gray7,
+        type_primitive = color.gray8, -- edit
         builtin = color.gray5,
         keyword = color.custom_yellow, -- edit
         keyword_return = color.custom_yellow, -- edit
