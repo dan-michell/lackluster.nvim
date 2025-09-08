@@ -28,7 +28,7 @@ return function(color, color_special)
         bg_statusline_nc = color.gray1,
 
         fg_statusline = color.gray7,
-        bg_statusline = color_special.statusline,
+        bg_statusline = color_special.main_background, -- color_special.statusline,
 
         fg_tab_nc = color.gray4,
         bg_tab_nc = color.gray2,
@@ -41,7 +41,7 @@ return function(color, color_special)
 
         fg_border = color.gray4,
         bg_colorcolumn = color.gray1,
-        bg_cursorline = color.gray2,
+        bg_cursorline = color_special.main_background, -- color.gray2,
 
         bg_visual = color.gray8,
         fg_visual = color.black,
