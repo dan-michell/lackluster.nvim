@@ -81,7 +81,7 @@ return function(color, color_special)
         keyword = color_special.keyword,
         keyword_return = color_special.exception,
         keyword_exception = color_special.exception,
-        string = color.lack,
+        string = color.green, -- color.lack,
         string_escape = color.green,
         punctuation = color.gray6,
         comment = color_special.comment,
