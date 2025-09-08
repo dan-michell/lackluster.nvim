@@ -14,4 +14,6 @@ return {
     keyword = "#666666",
     param = "#8E8E8E",
     whitespace = "#202020",
+    custom_yellow = "#ECDD68",
+    custom_green = "#92B870",
 }
